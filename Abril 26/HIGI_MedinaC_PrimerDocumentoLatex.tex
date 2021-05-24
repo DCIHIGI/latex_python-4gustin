@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Agustin Nelson Medina Colmenero}
+\title{Primer Documento \LaTeX}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+El documento presenta algunas de las ecuaciones más importantes de las ramas de física y matemáticas dado el impacto que han tenido el el mundo según \cite{Ec}.
+Además se incluye un listado de las físicos y matemáticos que han hecho grandes aportaciones a sus respectivas áreas, lo mencionado anteriormente se realizó con la finalidad de practicar el tipeo de ecuaciones y la construcción de listas en el procesador de texto \LaTeX . 
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Ecuaciones más importantes de la física}
+
+\subsubsection*{Ley de la Gravedad de Newton}
+\begin{equation}
+F = G \frac{m_1 m_2}{r^2}
+\end{equation}
+
+
+\subsubsection*{Ecuaciones de Maxwell}
+\begin{equation}
+\nabla \cdot \textbf{E} = \frac{\rho}{\varepsilon_0} 
+\end{equation}
+
+\begin{equation}
+\nabla \cdot \textbf{B} = 0 
+\end{equation}
+
+\begin{equation}
+\nabla \times \textbf{E} = - \frac{\partial \textbf{B}}{\partial t}
+\end{equation}
+
+\begin{equation}
+\nabla \times \textbf{B} =
+ \mu_0 \textbf{j} +\mu_0 \varepsilon _0 \frac{\partial \textbf{E}}{\partial t}
+\end{equation}
+
+
+\subsubsection*{Ecuación de Navier-Stokes}
+\begin{equation}
+\rho (\frac{\partial v}{\partial t} + v \cdot \nabla v ) = - \nabla p + \nabla \cdot T + f
+\end{equation}
+
+
+\subsubsection*{Ecuación de Onda}
+\begin{equation}
+\frac{\partial ^2 u}{\partial t^2} = c^2 \frac{\partial ^2 u}{\partial x^2}
+\end{equation}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Ecuaciones más importantes de las matemáticas}
+
+
+\subsubsection*{Teorema de Pitágoras}
+\begin{equation}
+a^2 + b^2 = c^2
+\end{equation}
+
+
+\subsubsection*{Logaritmos}
+\begin{equation}
+log_b(x y) = log_b(x) +log_b(y) 
+\end{equation}
+
+
+\subsubsection*{Distribución normal}
+\begin{equation}
+\Phi (x) = \frac{1}{\sqrt{2 \pi \sigma}} e^{\frac{(x- \mu)^2}{2 \sigma ^2}}
+\end{equation}
+
+
+\subsubsection*{Transformada de Fourier}
+\begin{equation}
+g(\xi)= \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{+ \infty} f(x) e^{- i \xi x} dx
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Físicos que realizaron contribuciones importantes según \cite{physics}}
+
+\begin{enumerate}
+	\item Isaac Newton
+	\item Albert Einstein
+	\item Galieo Gailei
+	\item Sthepen Hawking
+	\item Murray Gell-Mann
+	\item John Cockcroft
+	\item Joseph J. Thomson
+	\item Chandrasekhara Raman
+	\item Arthur Compton
+	\item Marie Curie
+	\item Michael Faraday
+	\item Niels Bohr
+	\item Paul Dirac
+	\item James Clerk Maxwell
+	\item Max Planck
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Matemáticos relevantes \cite{math}}
+
+\begin{itemize}
+	\item Pitágoras
+	\item Jean-Baptiste Joseph Fourier
+	\item Isaac Newton
+	\item Alan Turing
+	\item Kurt Gödel
+	\item Emmy Noether
+	\item René Descartes
+	\item Al Juarismi
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{2}
+ 
+	\bibitem{Ec} Stewart, I., Fernández, L. S. (2013). 
+\textit{17 ecuaciones que cambiaron el mundo.} Planeta.
+
+	\bibitem{physics} Cajal, A. (2019, 11 marzo).\textit{ Los 30 Físicos Más Famosos e Importantes de la Historia. Lifeder.} \textbf{https://www.lifeder.com/fisicos-famosos/}
+
+\bibitem{math} García, P. (2019, 5 marzo). \textit{Grandes momentos de la historia de las matemáticas.} OpenMind. \textbf{https://www.bbvaopenmind.com/ciencia/matematicas/grandes-momentos-la-historia-las-matematicas/
+}
+
+ 
+\end{thebibliography}
+
+\end{document}
